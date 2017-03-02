@@ -1,0 +1,54 @@
+p {
+	margin: 0;
+	font-size: 100%;
+	padding: 10px;
+	}
+h1 {
+	
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+h2 {
+	
+	font-size: 150%;
+	font-weight: 500;
+	text-align: left;
+	
+	}
+ul li {
+	font-size: medium;
+	text-decoration: underline;
+	list-style-type: circle;
+	margin-left: 2rem;
+	}
+ol li {
+	text-decoration: none;
+	list-style-type: square;
+	margin-left: 1rem;
+	font-size: large;
+}
+header, footer {
+	display: block;
+	
+	color: green;
+}
+
+body {
+	line-height: 1.5;
+	color: black;
+}
+
+
+
+#logo {
+	text-align: left;
+}
+
+
+iframe {
+	
+	margin-left: 20rem
+	
+}
