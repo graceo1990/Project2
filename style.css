@@ -1,6 +1,9 @@
+html {
+	background-color: Gainsboro;
+	}
 p {
 	margin: 0;
-	font-size: 100%;
+	font-size: 150%;
 	padding: 10px;
 	
 	}
@@ -9,26 +12,44 @@ h1 {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-	
+	background-color: green;
+	width: 1330px;
+	color: black;
 }
 h2 {
 	
 	font-size: 150%;
 	font-weight: 500;
-	
+	background-color: lightgreen;
+	width: 1330px;
+	text-align: center;
 	}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: RoyalBlue;
+}
+ol li {
+	text-decoration: underline;
+	font-size: 140%;
+}
 ul li {
 	font-size: medium;
 	text-decoration: underline;
-	list-style-type: circle;
 	margin-left: 2rem;
+	float: left;
 	}
-ol li {
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
 	text-decoration: none;
-	list-style-type: square;
-	margin-left: 1rem;
-	font-size: large;
 }
+
 header, footer {
 	display: block;
 	
@@ -38,6 +59,7 @@ header, footer {
 body {
 	line-height: 1.5;
 	color: black;
+	font-family: "Dosis", Serif;
 }
 
 
@@ -51,4 +73,7 @@ iframe {
 	
 	margin-left: 20rem
 	
+}
+a:hover:not(.active) {
+	background-color: #111;
 }
